@@ -2,4 +2,6 @@
 
 my personal site! code written by me ehe
 
-twitter.com/mykhachu
+originally was a node express app, but it's just a modified landing page with socials for now
+
+-mykhachu
