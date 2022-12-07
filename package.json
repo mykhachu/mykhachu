@@ -1,0 +1,23 @@
+{
+  "name": "mykhachustudios",
+  "version": "0.0.0",
+  "description": "personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "mykhachu",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "cloudinary": "^1.32.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.5",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}

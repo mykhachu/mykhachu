@@ -1,0 +1,35 @@
+<% layout('layouts/boilerplate') %>
+    <link href="/css/main.css" rel="stylesheet">
+
+    <div class="container">
+
+        <h1 class="display-2 mb-5">
+            official accounts
+        </h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+
+            <% for (let link of socials){ %>
+
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a class="blackUrl sans" href="<%= link.url %>" target="_blank">
+                                    <%= link.title %>
+                                </a>
+                            </h5>
+                            <p class="card-text">
+                                <%= link.description %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <% } %>
+
+
+        </div>
+    </div>

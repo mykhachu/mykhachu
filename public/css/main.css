@@ -1,0 +1,108 @@
+/* navbar ccs */
+#mkBrandIcon {
+    font-family: nunito, sans-serif;
+    font-weight: 700;
+    color: #fafafa;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    font-family: nunito, sans-serif;
+    font-weight: 400;
+    background-color: #efcee6;
+}
+
+.nav-link:hover {
+    color: #b4b0e7 !important;
+}
+
+/* body ccs*/
+body {
+    font-family: eb garamond, serif;
+    background-color: #efe1ea88;
+    font-weight: 500;
+    height: 100vh;
+}
+
+main {
+    margin: auto 0;
+}
+
+.card {
+    background-color: #fafafa;
+    border: 0;
+}
+
+.card-title {
+    font-family: nunito, sans-serif;
+    font-weight: 700;
+}
+
+.pinkUrl {
+    color: #e9c1de;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.pinkUrl:hover {
+    color: #b4b0e7;
+}
+
+.mutedUrl {
+    color: #DBBDD1;
+    text-decoration: none;
+}
+
+.mutedUrl:hover {
+    color: #B87AA1;
+}
+
+.blackUrl {
+    color: black;
+    text-decoration: none;
+}
+
+.blackUrl:hover {
+    color: #b4b0e7;
+}
+
+.borderPink {
+    border-color: #E9C1DE !important;
+}
+
+.sans {
+    font-family: nunito, sans-serif;
+}
+
+.serif {
+    font-family: eb garamond, serif;
+}
+
+.btn-primary {
+    background-color: #e9c1de;
+    border-color: #e9c1de;
+}
+
+.btn-primary:hover {
+    background-color: #DFA4D0;
+    border-color: #DFA4D0;
+}
+
+.btn-primary:active {
+    background-color: #DFA4D0 !important;
+    border-color: #DFA4D0 !important;
+}
+
+#azeliePfp {
+    max-width: 300px;
+}
+
+
+/* footer ccs */
+#footer {
+    border-color: #e9c1de88 !important;
+}
+
+#footerBrand:hover {
+    color: #e9c1de !important;
+}

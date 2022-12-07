@@ -1,0 +1,41 @@
+<% layout('layouts/boilerplate') %>
+
+   <div class="container">
+
+      <h1 class="display-2 mb-5">
+         about mykha
+      </h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+
+         <% for (let a of aboutInfo){ %>
+
+            <div class="col">
+               <div class="card h-100">
+
+                  <div class="card-body">
+                     <h5 class="card-title">
+                        <%= a.title %>
+                     </h5>
+                     <p class="card-text">
+                        <%= a.body.substring(0,120) %>...
+                     </p>
+                  </div>
+
+                  <div class="card-footer bg-light">
+                     <small>
+                        <a class="pinkUrl sans" href="/about/<%=a.title%>">
+                           See Details
+                        </a>
+                     </small>
+                  </div>
+
+               </div>
+            </div>
+
+            <% } %>
+
+
+      </div>
+   </div>
